@@ -1,0 +1,212 @@
+.goBack {
+    margin-top: 8px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;  
+    padding-bottom: 30px; 
+}
+
+.goBack h2 {
+    font-weight: 300;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.goBack-btns {
+    text-align: center;
+}
+
+.goBack-btns button {
+    display: inline-block !important;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+/* sections */
+#SI-Head {
+    height: 500px;
+}
+
+#SI-Picker .grblock {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#LVBI-head {
+    height: 300px;
+}
+
+#welcomeTXT {
+    padding-bottom: 10px !important;
+}
+
+#db-aboutme-btn {
+    margin-top: calc(2em + 5px);
+}
+
+#goBack {
+    margin-top: 5px;
+}
+
+#Logout {
+    display: block;
+}
+
+#db-newaccount-btn {
+    margin-top: calc(2em + 3px)
+}
+
+#Welcome {
+    min-height: calc(100% - 140px);
+    height: auto;
+}
+
+#quote {
+    min-height: 300px;
+    height: auto;
+}
+
+#about {
+    min-height: 600px;
+    height: auto;
+}
+
+#projects {
+    min-height: 600px;
+    height: auto;
+}
+
+#SI-Picker-Quizlet {
+    background: #f0f0f0;
+    color: black;
+    padding: 0;
+}
+
+#SI-Picker-Quizlet .head {
+    background-color: #4257b2;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#SI-Picker-Quizlet .head h1 {
+    font-size: 2em;
+}
+
+#SI-Picker-Quizlet p{
+    padding: 0 20px 0 20px;
+}
+#SI-Picker-Informatica p{
+    margin-bottom: 136px;
+}
+
+#AB-personShower {
+    padding-top: 80px;
+    min-height: 400px;
+}
+
+#DB-grid .grblock p {
+    font-weight: 500;
+    margin-bottom: 68px;
+}
+
+#IN-Wrapper {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+#IN-Wrapper .sidebar .btn {
+    width: 200px;
+}
+
+#IN-Btn1 {
+    width: 130px;
+}
+
+#IN-Btn2 {
+    width: 130px;
+    left: 180px;
+}
+
+#AB-personThijs {
+    padding-top: 0px;
+    margin-top: 3px;
+}
+
+/* Pictures */
+
+#AB-Pic1 {
+
+    background-image: url(../pictures/AB-Volleyballs-Progressive.jpg);
+}
+
+#AB-Pic2 {
+    background-image: url(../pictures/AB-Code.png);
+}
+
+#AB-Pic3 {
+    background-image: url(../pictures/AB-Books-Progressive.jpg);
+}
+
+#AB-Pic4 {
+    background-image: url(../pictures/AB-PersonJoachim-Progressive.jpg);
+}
+#AB-Pic5 {
+    background-image: url(../pictures/AB-PersonMarit-Progressive.jpg);
+}
+#AB-Pic6 {
+    background-image: url(../pictures/AB-Thijs.jpeg);
+}
+
+#SI-Pic1 {
+    background-image: url(../pictures/SI-Classroom-Progressive.jpg);
+}
+
+#LVBI-Pic1 {
+    background-image: url(../pictures/LVB/LVBI-Klas1.webp);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#LVBI-Pic2 {
+    background-image: url(../pictures/LVB/LVBI-Klas2.webp);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#LVBI-Pic3 {
+    background-image: url(../pictures/LVB/LVBI-Klas3.webp)
+}
+
+#LVBI-Pic4 {
+    background-image: url(../pictures/LVB/LVBI-Klas4.webp)
+}
+
+/* media queries */
+@media screen and (max-width: 1400px) {
+    #AB-personShower{
+        grid-template-columns: var(--grid-width, auto) var(--grid-width, auto);
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #AB-personShower{
+        grid-template-columns: var(--grid-width, auto);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #IN-Homework p {
+        margin-bottom: 150px;
+    }
+    #IN-Btn2, #IN-Btn1 {
+        left: calc((100%) / 2 - 65px)
+    }
+
+    #IN-Btn1 {
+        bottom: 100px;
+    }
+}

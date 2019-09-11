@@ -1,0 +1,121 @@
+/* standard */
+body {
+    margin: 0px;
+    padding: 0px;
+    transition: .2s;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        width: 100%;
+    }
+}
+
+.break {
+    height: 40px;
+    background-color: #333333;
+}
+
+/* Welcome sign */
+
+.welcome-sign {
+    background-image: url(../pictures/HS-Bay-Progressive.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: static;
+    width: 100%;
+    height: 700px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-border {
+    height: 250px;
+    width: auto;
+    padding-left: 20px;
+    padding-top: 200px;
+    z-index: 0;
+    position: relative;
+    animation-name: slide-up;
+    animation-duration: 3s;
+}
+
+.text-border h1{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 80px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.text-border p{
+    margin: 0px;
+    padding: 10px;
+    padding-top: 15px;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+/* Footer */
+
+.footer {
+    padding: 13px 8px 0px 8px;
+    position: relative;
+    width: 100%; 
+    height: 40px;
+    background-color: #333333;
+    box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0 -6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+}
+
+.footer p {
+    float: left;
+    position: relative;
+    margin: 0px;
+    color: white;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+.footer-links {
+    float: right;
+    color: white;
+    position: relative;
+}
+
+.footer-links a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+}
+
+/* Animations */
+
+@keyframes slide-up {
+    0%    {top:50px; opacity: 0;}
+    100%  {top:0px; opacity: 1;}
+}
+
+@-webkit-keyframes slide-up {
+    0%    {top:50px; opacity: 0;}
+    100%  {top:0px; opacity: 1;}
+}
